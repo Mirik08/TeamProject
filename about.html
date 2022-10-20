@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- this scales the content to display nicely on mobiles/tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Coffee Shop</title>
+
+    <!-- Bootstrap and FontAwesome cdn links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- our custom styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- ==== NAV BAR ===== -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <img src="images/logo.png" alt="logo"></img>
+    <a class="navbar-brand" href="about.html"></a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="daily offer.html">Daily offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <a href="contacts.html" class="button-1" type="button">Contact us</a>
+    </nav>
+    <!-- ==== END NAV BAR ===== -->
+
+    <main>
+      <img class="grinder" src="./images/grinder.jpg"></img>
+      <div class="top-heading">
+        <h3>drink coffee, enjoy fresh pastry</h3>
+        <h1>Coffee Shop</h1>
+        <a class="button-1" href="daily offer.html" role="button">Order here</a>
+      </div>
+
+      <div class="pastry-text">
+        <img class="pastry" src="./images/pastry.jpg"></img>
+        <h2>Pastry</h2>
+        <p>
+          Only one moment - when the barista reaches out over the bar to transfer the cup to the outstretched hand of the buyer.
+          But this is exactly the moment when a connection arises between us and our guests. 
+        </p>
+        <p>
+          And we strive to do our best to maintain this connection - starting with our commitment to selecting the highest quality coffee in the world and ending with how we interact with guests and organizations to fulfill our obligations.
+      </div>
+
+
+      <div class="matcha-text">
+        <img class="matcha" src="./images/matcha.jpg"></img>
+        <h2>Matcha</h2>
+        <p>
+          Matcha is finely ground powder of specially grown and processed green tea leaves, traditionally consumed in East Asia. The green tea plants used for matcha are shade-grown for three to four weeks before harvest; the stems and veins are removed during processing.
+        </p>
+        <p>
+          Matcha contains a concentrated amount of antioxidants, which may reduce cell damage and prevent chronic disease. Ready to taste this incredible superfood for yourself and swap your daily caffeine fix for the benefits of matcha?
+        </p>
+        </div>
+
+
+    <section class="section">
+      <a>
+        <article class="card">
+          <div class="card-body">
+            <h2 class="card-title">Americano</h2>
+            <p class="card-text">Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee.</p>
+            <button class="button-1" type="button">Order now</button>
+          </div>
+        </article>
+      </a>
+      <a>
+        <article class="card">
+          <div class="card-body">
+            <h2 class="card-title">Latte</h2>
+            <p class="card-text">The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.</p>
+            <button class="button-1" type="button">Order now</button>
+          </div>
+        </article>
+      </a>
+      <a>
+        <article class="card">
+          <div class="card-body">
+            <h2 class="card-title">Espresso</h2>
+            <p class="card-text">Espresso - black coffee made in a coffee machine or a special coffee machine, where hot water is passed through pressed ground beans at a pressure.</p>
+            <button class="button-1" type="button">Order now</button>
+          </div>
+        </article>
+      </a>
+    </section>
+
+
+      <div class="map-text">
+        <a href="https://www.google.com/maps/place/SV%C3%84G+TO+GO/@48.1474984,17.0994523,17z/data=!3m1!4b1!4m5!3m4!1s0x476c89594df5ace9:0xd1b0326806d198ea!8m2!3d48.1474948!4d17.101641">
+        <img class="map" src="./images/map.jpg"></img>
+        </a>
+          <p>Our address</p>
+          <p>Hodzovo namestie 100</p>
+          <p>811 00 Bratislava</p>
+          <p>Mo - Fri 8:00am 5:30pm</p>
+      </div>
+
+    </main>
+
+    <footer>
+      <!-- ==== social icons ==== -->
+      <a href="https://twitter.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-twitter"></i></span>
+      </a>
+      <a href="https://facebook.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-instagram"></i></span>
+      </a>
+    </footer>
+
+    <script src="./scripts.js"></script>
+  </body>
+
+</html>
